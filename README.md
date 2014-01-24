@@ -1,5 +1,7 @@
 #Action Figure Rapture
 
+![eye candy](https://github.com/bingeboy/action-figure-rapture/blob/master/public/images/draper.jpg)
+
 >"There can be no faith in government if our highest offices are excused from scrutiny - they should be setting the example of transparency."- Edward Snowden
 
 ###Rules for repo
