@@ -3,10 +3,10 @@
 >"There can be no faith in government if our highest offices are excused from scrutiny - they should be setting the example of transparency."- Edward Snowden
 
 ###Rules for repo
-* If you make a wiki page you link it to the wiki homepage
+* If you make a wiki page you link it to the wiki [homepage](https://github.com/bingeboy/action-figure-rapture/wiki)
 * If you edit a readme file you write it in MarkDown.
 * If you don't know MarkDown use this [tool](http://mouapp.com/)
-* Emails are lame, keep discussion in the repo and watch the repository (click the eye icon above you freaks).
+* Emails strings are annoying, keep discussion in the repo and watch the repository (click the eye icon above you freaks).
 * Keep the repo clean.
 
 
