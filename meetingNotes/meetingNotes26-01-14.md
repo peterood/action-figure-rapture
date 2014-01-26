@@ -29,6 +29,6 @@ sideshowtoy.com is know for having a good preorder and flex pay solution.
 
 * We need someone to be treasurer ( I think Andrew wanted this position)
 
-Please and missed notes above and comments below.
+Please add missed notes above.
 
 Om Shanti 
