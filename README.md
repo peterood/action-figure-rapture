@@ -1,5 +1,7 @@
 #Action Figure Rapture
 
+I'm now accepting $100.00 per person in my simple account if you don't want to wait for the NERDMINER LLC account. -JP
+
 ![https://github.com/bingeboy/action-figure-rapture/blob/master/public/images/draper.jpg](http://i.ebayimg.com/t/1-6-12-Hot-Custom-Don-Draper-Jon-Hamm-Mad-Men-Figure-Not-Sideshow-Toys-/00/s/ODcwWDc1OA==/z/DYcAAOxyYTRSVbDA/$(KGrHqRHJEkFI9oBU(s5BSVbD!P!z!~~60_57.JPG)
 
 >"There can be no faith in government if our highest offices are excused from scrutiny - they should be setting the example of transparency."- Edward Snowden
