@@ -36,7 +36,7 @@ The costs would breakdown as follows:
 
 ###Bodies: 
 [http://www.ebay.com/itm/1-6-Soldier-Story-Toys-SS080B-PJ-Pararescue-Jumper-S25-Nude-Body-Thigh-Muscle-/111259293034?pt=US_Action_Figures&hash=item19e792156a](http://www.ebay.com/itm/1-6-Soldier-Story-Toys-SS080B-PJ-Pararescue-Jumper-S25-Nude-Body-Thigh-Muscle-/111259293034?pt=US_Action_Figures&hash=item19e792156a)
-
+ 
 ###Suits:
 [http://www.ebay.com/itm/TB95-07-1-6-MENS-HOMMES-MALE-SUIT-SET-BLK-/121258228496?pt=US_Action_Figures&hash=item1c3b8dbb10](http://www.ebay.com/itm/TB95-07-1-6-MENS-HOMMES-MALE-SUIT-SET-BLK-/121258228496?pt=US_Action_Figures&hash=item1c3b8dbb10)
 
