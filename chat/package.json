@@ -17,12 +17,17 @@
     "connect-redis": "~1.4.6",
     "path": "~0.4.9",
     "consolidate": "~0.10.0",
-    "bcrypt": "~0.7.7"
+    "bcrypt": "~0.7.7",
+    "bunyan": "~0.22.1",
+    "bcrypt-nodejs": "0.0.3",
+    "emailjs": "~0.3.6"
   },
   "scripts": {
     "start": "nodemon server.js"
   },
   "devDependencies": {
-    "nodemon": "~1.0.14"
+    "nodemon": "~1.0.14",
+    "mocha": "*",
+    "should": "*"
   }
 }
