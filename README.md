@@ -1,5 +1,9 @@
 #Action Figure Rapture
 
+###Recent Updates 
+* We have started using andbang.com for team chat, [Log in here](https://andbang.com/AFR/chat).
+* I'm now accepting $100.00 per person in my simple account if you don't want to wait for the NERDMINER LLC account. -JP
+
 ![https://github.com/bingeboy/action-figure-rapture/blob/master/public/images/draper.jpg](http://i.ebayimg.com/t/1-6-12-Hot-Custom-Don-Draper-Jon-Hamm-Mad-Men-Figure-Not-Sideshow-Toys-/00/s/ODcwWDc1OA==/z/DYcAAOxyYTRSVbDA/$(KGrHqRHJEkFI9oBU(s5BSVbD!P!z!~~60_57.JPG)
 
 >"There can be no faith in government if our highest offices are excused from scrutiny - they should be setting the example of transparency."- Edward Snowden
@@ -34,7 +38,7 @@ The costs would breakdown as follows:
 
 ###Bodies: 
 [http://www.ebay.com/itm/1-6-Soldier-Story-Toys-SS080B-PJ-Pararescue-Jumper-S25-Nude-Body-Thigh-Muscle-/111259293034?pt=US_Action_Figures&hash=item19e792156a](http://www.ebay.com/itm/1-6-Soldier-Story-Toys-SS080B-PJ-Pararescue-Jumper-S25-Nude-Body-Thigh-Muscle-/111259293034?pt=US_Action_Figures&hash=item19e792156a)
-
+ 
 ###Suits:
 [http://www.ebay.com/itm/TB95-07-1-6-MENS-HOMMES-MALE-SUIT-SET-BLK-/121258228496?pt=US_Action_Figures&hash=item1c3b8dbb10](http://www.ebay.com/itm/TB95-07-1-6-MENS-HOMMES-MALE-SUIT-SET-BLK-/121258228496?pt=US_Action_Figures&hash=item1c3b8dbb10)
 
