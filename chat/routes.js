@@ -25,26 +25,18 @@ function welcomeMessage(req, res, next) {
 
 module.exports = exports = function(app, db) {
 
-    /*
-    var ContentRoute           = new contentRouteFactory(db);
-    var ProductRoute           = new productRouteFactory(db);
-    var HomepageRoute          = new homeRouteFactory(db);
-    var UserRoute              = new userRouteFactory(db);
-    var CollectionRoute        = new collectionRouteFactory(db);
-    */
-
     app.use( function (req, res, next) {
         res.locals.session = req.session;
         next();
     });
 
+    app.get('/', function(req, res){
+        res.render('./index');
+    });
+
     app.get('/logout', function (req, res) {
         delete req.session.user_id;
         res.redirect('/login');
-    });
-
-    app.get('/', function(req, res){
-        res.render('home.jade');
     });
 
     app.param('name', function (req, res, next, name){
