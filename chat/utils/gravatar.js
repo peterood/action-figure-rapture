@@ -1,4 +1,5 @@
-var gravatar = require('gravatar');
+var gravatar = require('gravatar')
+    , config = require('../config')
 
 
 module.exports = exports = function(gravatarEmail){

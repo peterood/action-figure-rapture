@@ -13,11 +13,12 @@ To use it, you need Node.js and those 3 modules.
 
 ## How to use :
 
-	- Run mongo daemon
-    - Run redis
-    - Run npm start from chat root
+	- Run mongo daemon `mongod`
+    - Run redis `redis-server`
+    - Run redis cli `redis-cli  MONITOR`
+    - Run `npm start` from chat root
 
 ### Credits
 
 Creator : [Geekuillaume] (http://geekuillau.me/)
-Contributors: BINGEBOY
+Contributors: [BINGEBOY] (http://jpmcgarrity.com)

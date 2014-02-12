@@ -12,8 +12,8 @@ exports.createUser = function(req, res){
     , lastname = req.body.lastname
     , email = req.body.email
     , phone = req.body.phone
-    , digest = req.body.digest;
-    //, gravatar =  gravatarUtil(req.body.email);
+    , digest = req.body.digest
+    , gravatar =  gravatarUtil(req.body.email);
 
     new User({
         username: username
@@ -23,12 +23,12 @@ exports.createUser = function(req, res){
         , email: email
         , phone: phone
         , digest: digest
-     //   , gravatar: gravatar
+        , gravatar: gravatar
     }).save(function (err, user){
         if (err) throw err;
         req.session.isLoggedIn = true;
         req.session.user = user.username;
-      //  req.session.gravatar = user.gravatar;
+        req.session.gravatar = user.gravatar;
         res.redirect('/account/' + user.username, {user:user});
     })
 
