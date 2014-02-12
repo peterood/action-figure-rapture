@@ -1,11 +1,8 @@
-//router speaks to this contoller for all user related stuff.
-
-    var gravatarUtil = require('../utils/gravatar')
-    , User = require('../models/userSchema');
+var gravatarUtil = require('../utils/gravatar')
+, User = require('../models/userSchema');
 
 exports.createUser = function(req, res){
 
-    console.log("moose -------------------------------------", req.body);
     var username = req.body.username
     , password = req.body.password
     , firstname = req.body.firstname

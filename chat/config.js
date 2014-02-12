@@ -8,7 +8,7 @@ exports.redisPassword = ''
 exports.redisDB = 0
 
 //salt factor
-exports.SALT_WORK_FACTOR
+exports.SALT_WORK_FACTOR = 10
 
 //db path
 exports.db = 'mongodb://localhost/holla'
