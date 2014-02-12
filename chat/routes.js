@@ -1,15 +1,8 @@
 var colors             = require('colors')
  , config              = require('./config')
-
-var bcrypt = require('bcrypt'),
-    SALT_WORK_FACTOR = 10,
-    // max of 5 attempts, resulting in a 2 hour lock
-    MAX_LOGIN_ATTEMPTS = 5,
-    LOCK_TIME = 2 * 60 * 60 * 1000;
+ , userController      = require('./controllers/userController')
 
 
-
-//Verify if user is authed or not
 function checkAuth(req, res, next) {
   if (!req.session.isLoggedIn) res.send('You are not authorized to view this page');
   else next();
@@ -25,6 +18,13 @@ function welcomeMessage(req, res, next) {
 
 module.exports = exports = function(app, db) {
 
+    app.param('username', function (req, res, next, name){
+        User.find({ username: name}, function ( err, docs ) {
+            req.user = docs[0];
+            next();
+        })
+    })
+
     app.use( function (req, res, next) {
         res.locals.session = req.session;
         next();
@@ -34,19 +34,17 @@ module.exports = exports = function(app, db) {
         res.render('./index');
     });
 
+    app.get('/createAccount', userController.createUser)
+       .get('/updateAccount', userController.updateUser)
+       .get('/deleteAccount', userController.deleteUser)
+       .get('/:username', userController.profileUser)
+
     app.get('/logout', function (req, res) {
         delete req.session.user_id;
         res.redirect('/login');
     });
 
-    app.param('name', function (req, res, next, name){
-        User.find({ username: name}, function ( err, docs ) {
-            req.user = docs[0];
-            next();
-        })
-    })
-
-    //404
+       //404
     app.use( function ( req, res, next ) {
         res.status( 404 );
 
@@ -64,10 +62,10 @@ module.exports = exports = function(app, db) {
         //default
         res.type('txt');
         res.send('Error 404, could not find page.');
-    });
+    })
 
     //500
-    app.use( function (err, req, res, next) {
+    .use( function (err, req, res, next) {
         console.error('error at %s\n', req.url, err);
         res.send(500, 'error code 500, oh snap');
     });
