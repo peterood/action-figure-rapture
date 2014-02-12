@@ -13,6 +13,7 @@ var config   = require('./config')
     , sockets = require('./sockets')
 
 mongoose.set('debug', true);
+console.log(config.db, '----------------------------------------------------------------------------');
 mongoose.connect(config.db , function (err) {
     if (err) throw err;
     console.log('mongoose db connected to' + config.db);

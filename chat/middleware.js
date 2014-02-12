@@ -12,8 +12,8 @@ module.exports = function ( app, publicDirectory ){
     .engine('html', cons.jade)
     .set('view engine', 'jade')
     .set('views', publicDirectory + '/views')
+    .use(express.bodyParser())
     .use(express.static(path.join( publicDirectory , '/public' )))
-    .use(express.bodyParser({ keepExtensions: true, uploadDir: publicDirectory + '/public/uploads' }))
     .use(express.methodOverride())
     .use(express.cookieParser())
         .use(express.session({

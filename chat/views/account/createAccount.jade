@@ -1,0 +1,33 @@
+extends ../layout
+
+block content
+    .panel.panel-default
+
+        .panel-heading: h3.panel-title Create Account
+        .panel-body
+            form(method="POST", action="./account", role="form", data-validate="parsley", data-persist="garlic")
+                .form-group
+                    label(for="username") Username
+                    input#username.form-control(type="text", name="username", value="", placeholder="Enter a Username", data-required="true", data-trigger="change", data-type="alphanum" data-rangelength="[6,19]", data-error-message="Please enter at least 6 characters alphanumeric value")
+                .form-group
+                    label(for="email") Email Address
+                    input#email.form-control(type="email", name="email", value="",  placeholder="Enter Your Email",data-type="email", data-required="true", data-trigger="change", data-error-message="Please enter a valid email address")
+                .form-group
+                    label(for="gravatar") Gravatar 
+                    input#gravatar.form-control(type="email", name="gravatar", value="",  placeholder="I have no clue what this is", data-required="true", data-trigger="change", data-error-message="Listen up kid, you better be sorting out this gravatar or we are going to be having a major issue with you stupid generic looking icon in the team chat. Is that the way you want to appear to the team? Like someone who doesn't even have a gravatar")
+
+                .form-group
+                    label(for="firstname") First Name
+                    input#firstname.form-control(type="text", name="firstname", value="",  placeholder="ex. Banner", data-required="true", data-trigger="change", data-error-message="Please enter your first name")
+
+                .form-group
+                    label(for="") Last Name
+                    input#lastname.form-control(type="text", name="lastname", value="",  placeholder="ex. Banner", data-required="true", data-trigger="change", data-error-message="Please enter your last name")
+                .form-group
+                    label(for="password") Password
+                    input#password.form-control(type="password", name="password", value="", placeholder="Enter a password over 9 characters that is alpha numeric", data-required="true", data-trigger="focusout")
+                .form-group
+                    label(for="digest") Digest
+                    input#digest(type="checkbox", name="digest", checked=(true===false ? "checked" : undefined))
+
+                button.btn-primary.btn-lg(type="submit") Create Account

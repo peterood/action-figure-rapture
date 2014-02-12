@@ -1,0 +1,24 @@
+extends ../layout
+
+block content
+
+    h1 Login
+    h4 Festina lente 
+
+    form(method="POST", action="/login", role="form", data-validate="parsley")
+      .form-group
+        label(for="username") Username
+        input#username.form-control(type="text", name="username", value="", placeholder="Enter a Username", data-required="true", data-trigger="change", data-type="alphanum" data-rangelength="[6,19]", data-error-message="Please enter at least 6 characters alphanumeric value")
+      .form-group
+        label(for="password") Password
+        input#password.form-control(type="password", name="password", value="", placeholder="Enter a password over 9 characters that is alpha numeric", data-required="true", data-trigger="focusout")
+      .checkbox
+        label
+          input(type='checkbox')
+          | Remember Me
+
+      button.btn-primary.btn-lg(type="submit") Submit
+      a.help-block(href="./forgot") Need to reset your passphrase
+      a.help-block(href="./forgotUsername") Forgot Username?
+
+

@@ -18,12 +18,7 @@ function welcomeMessage(req, res, next) {
 
 module.exports = exports = function(app, db) {
 
-    app.param('username', function (req, res, next, name){
-        User.find({ username: name}, function ( err, docs ) {
-            req.user = docs[0];
-            next();
-        })
-    })
+    //app.param('username', userController.paramUserName);
 
     app.use( function (req, res, next) {
         res.locals.session = req.session;
@@ -34,15 +29,13 @@ module.exports = exports = function(app, db) {
         res.render('./index');
     });
 
-    app.get('/createAccount', userController.createUser)
-       .get('/updateAccount', userController.updateUser)
-       .get('/deleteAccount', userController.deleteUser)
-       .get('/:username', userController.profileUser)
-
-    app.get('/logout', function (req, res) {
-        delete req.session.user_id;
-        res.redirect('/login');
-    });
+    app.get('/createaccount', userController.signupUser);
+    app.post('/account', userController.createUser);
+       /*
+       .get('/updateaccount', userController.updateUser)
+       .get('/deleteaccount', userController.deleteUser)
+       .get('/:username', userController.profileUser);
+*/
 
        //404
     app.use( function ( req, res, next ) {
@@ -51,7 +44,7 @@ module.exports = exports = function(app, db) {
         if(req.accepts('html')) {
             return res.render('./error', {
                 title: 'Error 404',
-                subtitle: 'You have hit a page that didn\'t exist, perhaps it will or did.'
+                subtitle: 'You have hit a page that didn\'t exist. Existence really is an imperfect tense that never becomes a present.'
             });
         }
 

@@ -1,0 +1,10 @@
+
+extends ../layout
+
+block content
+    .panel.panel-default
+
+        .panel-heading: h3.panel-title Your Account
+        .panel-body
+            each userdata in user 
+                p= userdata
