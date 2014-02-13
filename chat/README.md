@@ -7,7 +7,7 @@ This application uses Bootstrap from Twitter and the javascript librairie SlimSc
 ## Install the three modules :
 
 	- Go to the chat directory and use this command
-	- npm install express socket.io jade
+	- npm install  
 
 ## How to use :
 
