@@ -1,10 +1,8 @@
 Node.js Chat
 ===
+//TODO add a timestamp for the logs, maybe momentum//TODO Creat Bunyan logs
 
-This application is made with Node.js, Express, Socket.io and Jade.
-It use Bootstrap from Twitter and the javascript librairie SlimScroll.
-Thanks to Node.js, the chat can handle a lot of simultaneous connections without lag.
-To use it, you need Node.js and those 3 modules.
+This application uses Bootstrap from Twitter and the javascript librairie SlimScroll.
 
 ## Install the three modules :
 
@@ -17,6 +15,14 @@ To use it, you need Node.js and those 3 modules.
     - Run redis `redis-server`
     - Run redis cli `redis-cli  MONITOR`
     - Run `npm start` from chat root
+
+## REDIS CLI
+
+```
+#show users online
+smembers onlineUsers
+```
+
 
 ### Credits
 

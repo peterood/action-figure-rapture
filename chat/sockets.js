@@ -1,3 +1,11 @@
+//app.js Socket IO Test
+var redis = require('redis');
+
+
+var store = redis.createClient();
+var pub = redis.createClient();
+var sub = redis.createClient();
+
 
 var pseudoArray = ['admin']; //block the admin username (you can disable it)
 function sockets(io) {
@@ -26,11 +34,18 @@ function sockets(io) {
     io.sockets.on('connection', function (socket) { // First connection
         users += 1; // Add 1 to the count
         reloadUsers(); // Send the count to all the users
+        sub.subscribe("chatting"); //TODO make this dynamic for the room you are in . Yes this is the room.
+        sub.on("message", function (channel, message) {
+            console.log("message received on server from publish ");
+            socket.send(message);
+        });
         socket.on('message', function (data) { // Broadcast the message to all
             if(pseudoSet(socket))
             {
                 var transmit = {date : new Date().toISOString(), pseudo : returnPseudo(socket), message : data};
                 socket.broadcast.emit('message', transmit);
+                pub.publish('message', transmit.message);
+                store.sadd("onlineUsers", transmit.pseudo);
                 console.log("user "+ transmit['pseudo'] +" said \""+data+"\"");
             }
         });

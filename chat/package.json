@@ -20,7 +20,8 @@
     "bcrypt": "~0.7.7",
     "bunyan": "~0.22.1",
     "bcrypt-nodejs": "0.0.3",
-    "emailjs": "~0.3.6"
+    "emailjs": "~0.3.6",
+    "redis" : "0.7.3"
   },
   "scripts": {
     "start": "nodemon server.js"
