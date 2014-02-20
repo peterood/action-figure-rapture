@@ -1,6 +1,8 @@
 #Action Figure Rapture
 
 ###Recent Updates 
+
+* Thatsmyface releases Snowden
 * We have started using andbang.com for team chat, [Log in here](https://andbang.com/AFR/chat).
 * I'm now accepting $100.00 per person in my simple account if you don't want to wait for the NERDMINER LLC account. -JP
 
@@ -16,7 +18,7 @@
 * Keep the repo clean.
 
 
-###Reminder these are the ideas floated so far:
+### Ideas
 * The NSA Shitlist series (Edward Snowden, Bradley 'Chelsea' Manning, Julian Assange?) 
 * Revenge of The Nerds series
 * Star Wars: Atrocities series     
@@ -33,8 +35,7 @@ In order to move ahead for the NSA Hacker series prototypes we will need about $
 
 The costs would breakdown as follows:
 
-###Hacker heads: (Custom Head for 12" Figure $88 per head)
-[http://www.thatsmyface.com/Custom-Action-Figures/View-all-products.html](http://www.thatsmyface.com/Custom-Action-Figures/View-all-products.html)
+###Hacker heads: TBD
 
 ###Bodies: 
 [http://www.ebay.com/itm/1-6-Soldier-Story-Toys-SS080B-PJ-Pararescue-Jumper-S25-Nude-Body-Thigh-Muscle-/111259293034?pt=US_Action_Figures&hash=item19e792156a](http://www.ebay.com/itm/1-6-Soldier-Story-Toys-SS080B-PJ-Pararescue-Jumper-S25-Nude-Body-Thigh-Muscle-/111259293034?pt=US_Action_Figures&hash=item19e792156a)
