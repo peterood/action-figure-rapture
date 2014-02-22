@@ -1,5 +1,7 @@
 #Action Figure Rapture
 
+Project home now here: [https://github.com/peterood/action-figure-rapture/](https://github.com/peterood/action-figure-rapture/)
+
 ###Recent Updates 
 
 * Thatsmyface releases Snowden
